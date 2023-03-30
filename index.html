@@ -5,13 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Data Engineer | Data Analyst | BI Developer" />
         <link rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" src="index.js"></script>
         <title>Daniel Echeverri P&eacute;rez</title>
     </head>
     <body>
         <div id="header">
             <div class="container">
                 <nav>
-                    <img src="/images/D_logo.svg" alt="Logo" class="logo">
+                    <img src="/images/D_logo.svg" class="logo">
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
@@ -22,6 +23,56 @@
                 <div class="header-text">
                     <p>Data Engineer | Data Analyst</p>
                     <h1>Hello, I'm <span>Daniel Echeverri</span> <br>From Colombia</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident dignissimos cum magni fugit tenetur possimus. Officiis delectus soluta distinctio amet pariatur! Similique, repellat adipisci. Exercitationem veniam nihil nulla ipsum quas!
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')"">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')"">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Data</span> Engineer</li>
+                                <li><span>Data</span> Analyst</li>
+                                <li><span>BI</span> Developer</li>
+                                <li><span>BA</span> Developer</li>
+                                <li><span>Python</span> Developer</li>
+                                <li><span>Java</span> Developer</li>
+                                <li><span>JavaScrip</span> Developer</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - current</span><br>Data Engineer at CoreBI</li>
+                                <li><span>2020 - 2023</span><br>Business Analyst | Data Analyst at EPM</li>
+                                <li><span>2018 - 2020</span><br>Python Developer | BI & BA Developer at IGerencia</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022</span><br>Master in Business Intelligent at UCN</li>
+                                <li><span>2022</span><br>Data Science Training at ESAP</li>
+                                <li><span>2021</span><br>Mintic 2022 Web Development Training at UPB</li>
+                                <li><span>2020</span><br>Data Engineer with Python Training at Platzi</li>
+                                <li><span>2017</span><br>Business Administration at FUNLAM</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
