@@ -4,10 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Data Engineer | Data Analyst | BI Developer" />
+        <meta name=”viewport” content=”width=device-width, initial-scale=1″ />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="icon" href="images/D_logo.svg" type=image/svg"">
         <script src="https://kit.fontawesome.com/56332920f6.js" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="index.js"></script>
         <title>Daniel Echeverri P&eacute;rez</title>
     </head>
     <body>
@@ -15,13 +15,15 @@
             <div class="container">
                 <nav>
                     <img src="/images/D_logo.svg" class="logo">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Technologies</a></li>
-                        <li><a href="#">Contact</a></li>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#technologies">Technologies</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                     </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
                     <p>Data Engineer | Data Analyst</p>
@@ -34,7 +36,7 @@
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="" alt="">
+                        <img src="/images/D_logo.svg" alt="">
                     </div>
                     <div class="about-col-2">
                         <h1 class="sub-title">About me</h1>
@@ -185,6 +187,17 @@
                 </div>
             </div>
         </div>
+        
+        <script type="text/javascript" src="index.js"></script>
     </body>
+    <footer>
+        <div class="container footer">
+            <div class="row footer">
+                <div class="logofooter"><img src="/images/Daniel_logo_negative.svg" alt="Logo_negative"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quam rem earum laudantium voluptatem odit temporibus vel magnam officiis iure! Dicta facere harum placeat quos eveniet laborum dolor alias voluptatem!</p>
+            </div>
+            <p>Copyright 2022©</p>
+        </div>
+    </footer>
 </html>
 
