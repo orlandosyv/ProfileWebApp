@@ -1,219 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="title" content="Orlando Yurivilca Vargas" />
-        <meta name="sub-title" content="daechepe" />
-        <meta name="description" content="MBA & Industrial Engineer" />
-        <meta name=”viewport” content=”width=device-width, initial-scale=1″ />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="icon" href="images/D_logo.svg" type=image/svg"">
-        <script src="https://kit.fontawesome.com/56332920f6.js" crossorigin="anonymous"></script>
-        <title>Orlando Yurivilca</title>
-    </head>
-    <body>
-        <div id="header">
-            <div class="container">
-                <nav>
-                    <img src="images/D_logo.svg" class="logo" alt="Logo">
-                    <ul id="sidemenu">
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#technologies">Technologies</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                    </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-                </nav>
-                <div class="header-text">
-                    <p>MBA & Industrial Engineer</p>
-                    <h1>Hello, I'm <br><span>Orlando Sergio Yurivilca Vargas</span> <br>From Peru</h1>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="title" content="Orlando Yurivilca Vargas" />
+    <meta name="sub-title" content="daechepe" />
+    <meta name="description" content="MBA & Industrial Engineer" />
+    <meta
+      name="”viewport”"
+      content="”width"
+      ="device-width,"
+      initial-scale="1″"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/D_logo.svg" type=image/svg"">
+    <script
+      src="https://kit.fontawesome.com/56332920f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Orlando Yurivilca</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/D_logo.svg" class="logo" alt="Logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>MBA & Industrial Engineer</p>
+          <h1>
+            Hello, I'm <br /><span>Orlando Sergio Yurivilca Vargas</span>
+            <br />From Peru
+          </h1>
         </div>
+      </div>
+    </div>
 
-        <div id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="images/Yurivilca_Orlando.jpg" alt="My photo">
-                    </div>
-                    <div class="about-col-2">
-                        <h1 class="sub-title">About me</h1>
-                        <p>
-                            Industrial Engineer with a Master of Business Administration from ESMT Berlin, 
-                            currently serving as a Sales & Business Development Manager at iSystems GmbH. 
-                            My passion for technology and innovation drives my commitment to applying my skills in business development, 
-                            project management and software development to drive business
-                            growth and enhance user satisfaction. My experience of +10 years in sales and marketing have equipped
-                            me with a customer-oriented mindset, instilled data-driven decision-making capabilities, and fostered a keen
-                            understanding of market dynamics. I am prepared to leverage my diverse background, encompassing both
-                            engineering and business education, to make meaningful contributions to product development and deliver
-                            solutions that prioritize the needs of our customers and stakeholders
-                            My hobbies are running, play the piano and sing.                            
-                        </p>
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('Hskills')">Technical skills</p>
-                            <p class="tab-links" onclick="opentab('Sskills')">Soft skills</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-				<p class="tab-links" onclick="opentab('languages')">Languages</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="Hskills">
-                            <ul>
-                                <li><span>.Net</span></li>
-                                <li><span>C#</span></li>
-                                <li><span>Visual Basic</span></li>
-                                <li><span>Python</span></li>
-                                <li><span>JavaScrip</span></li>
-                                <li><span>SQL</span></li>
-                            </ul>
-                        </div>
-
-                        <div class="tab-contents" id="Sskills">
-                            <ul>
-                                <li><span>Teamwork</span></li>
-                                <li><span>Communication</span></li>
-                                <li><span>Creativity</span></li>
-                                <li><span>Problem</span>-Solving</li>
-                                <li><span>Time</span> Management</li>
-                                <li><span>Fast</span> Learner</li>
-                                <li><span>Work</span> ethic</li>
-                                <li><span>Attention</span> to detail</li>
-                            </ul>
-                        </div>
-
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>2023 - current</span><br>Data Engineer at CoreBI</li>
-                                <li><span>2020 - 2023</span><br>Business Analyst | Data Analyst | Product Owner at EPM</li>
-                                <li><span>2018 - 2020</span><br>Python Developer | BI & BA Developer at IGerencia</li>
-                            </ul>
-                        </div>
-
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>2022</span><br>Specialty Degree in Business Intelligent at UCN</li>
-                                <li><span>2022</span><br>Data Science Training at ESAP</li>
-                                <li><span>2021</span><br>Mintic 2022 Web Development Training at UPB</li>
-                                <li><span>2020</span><br>Data Engineer with Python Training at Platzi</li>
-                                <li><span>2017</span><br>Bachelor Degree in Business Administration at FUNLAM</li>
-                            </ul>
-                        </div>
-			<div class="tab-contents" id="languages">
-			    <ul>
-				<li><span>B2</span>  English</li>
-			    </ul>
-			</div>
-                    </div>
-                </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Yurivilca_Orlando.jpg" alt="My photo" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              Industrial Engineer with a Master of Business Administration from
+              ESMT Berlin, currently serving as a Sales & Business Development
+              Manager at iSystems GmbH. My passion for technology and innovation
+              drives my commitment to applying my skills in business
+              development, project management and software development to drive
+              business growth and enhance user satisfaction. My experience of
+              +10 years in sales and marketing have equipped me with a
+              customer-oriented mindset, instilled data-driven decision-making
+              capabilities, and fostered a keen understanding of market
+              dynamics. I am prepared to leverage my diverse background,
+              encompassing both engineering and business education, to make
+              meaningful contributions to product development and deliver
+              solutions that prioritize the needs of our customers and
+              stakeholders My hobbies are running, play the piano and sing.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Hskills')">
+                Technical skills
+              </p>
+              <p class="tab-links" onclick="opentab('Sskills')">Soft skills</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('languages')">Languages</p>
             </div>
-        </div>
-
-        <div id="portfolio">
-            <div class="container">
-                <h1 class="sub-title">My work</h1>
-                <div class="work-list">
-                    <div class="work">
-                        <img src="https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/289863988_1490965334692560_3211829710324011111_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=R6ZkHdXQQS8AX-hcBQ6&_nc_ht=scontent.feoh2-1.fna&oh=00_AfCCCmq6-xzLQC2cX_6nqSUxURlm12B9CSoULRFlaDLMzg&oe=651AD366" alt="La Tartaleteria">
-                        <div class="layer">
-                            <h3>App Tartaleteria</h3>
-                            <p>Food business website, the website developed with Django framework, React js and mysql to local storage. </p>
-                        </div>
-                    </div>
-
-                    <div class="work">
-                        <img src="https://media.licdn.com/dms/image/C4E03AQE3jsUfGumx2Q/profile-displayphoto-shrink_800_800/0/1564680299257?e=2147483647&v=beta&t=0y4w77VMIvyGLK_osBNpvQwGSOrCECDNzlhQPjvXJ1I" alt="JM Producciones">
-                        <div class="layer">
-                            <h3>App JM Producciones</h3>
-                            <p>Event logistic business desktop app to management the inventory. Desktop app developed with java and sqlite to storage. </p>
-                        </div>
-                    </div>
-
-                    <div class="work">
-                        <img src="https://seranking.com/es/blog/wp-content/uploads/sites/13/2023/02/que-es-la-ia-en-seo-y-contenidos.png" alt="Mail Assistance">
-                        <div class="layer">
-                            <h3>Mail Assistance</h3>
-                            <p>Python automatization on Outlook, to management the inbox and get time control on your activities.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="tab-contents active-tab" id="Hskills">
+              <ul>
+                <li><span>.Net</span></li>
+                <li><span>C#</span></li>
+                <li><span>Visual Basic</span></li>
+                <li><span>Python</span></li>
+                <li><span>JavaScrip</span></li>
+                <li><span>SQL</span></li>
+              </ul>
             </div>
-        </div>
 
-        <div id="technologies">
-            <div class="container">
-                <h1 class="sub-title">Technologies</h1>
-                <div class="tech-list">
-                    <div class="tech">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1280px-Python_logo_and_wordmark.svg.png" alt="Python">
-                    </div>
-
-                    <div class="tech">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png" alt="Spark">
-                    </div>
-
-                    <div class="tech">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hadoop_logo.svg/1024px-Hadoop_logo.svg.png" alt="Hadoop">
-                    </div>
-
-                    <div class="tech">
-                        <img src="https://cdn.neowin.com/news/images/uploaded/2019/10/1571114082_power_bi_new_3_story.jpg" alt="Power BI">
-                    </div>
-
-                    <div class="tech">
-                        <img src="https://www.qlik.com/es-es/-/media/images/qlik/global/qlik-logo-2x.png?rev=-1" alt="QlikSense">
-                    </div>
-
-                    <div class="tech">
-                        <img src="https://companieslogo.com/img/orig/PLTR_BIG-45654fcc.png?t=1634119414" alt="Palantir Foundry">
-                    </div>
-
-                    <div class="tech">
-                        <img src="https://download.logo.wine/logo/Microsoft_Azure/Microsoft_Azure-Logo.wine.png" alt="Azure">
-                    </div>
-
-                    <div class="tech">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png" alt="AWS">
-                    </div>
-
-                    <div class="tech">
-                        <img src="https://www.ucloudstore.com/wp-content/uploads/2021/09/gcp-02.png" alt="GCP">
-                    </div>
-
-                    <div class="tech">
-                        <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" alt="Docker">
-                    </div>
-                </div>
+            <div class="tab-contents" id="Sskills">
+              <ul>
+                <li><span>Communication</span></li>
+                <li><span>Teamwork</span></li>
+                <li><span>Curiosity</span></li>
+                <li><span>Problem</span>-Solving</li>
+                <li><span>Fast</span> Learner</li>
+              </ul>
             </div>
-        </div>
 
-        <div id="contact">
-            <div class="container">
-                <h1 class="sub-title">Contact Me</h1>
-                <div class="row contact">
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/daechepe"><i class="fa-brands fa-linkedin fa-2xl" style="color: #76b5c5;"></i></a>
-                        <a href="https://github.com/daechepe"><i class="fa-brands fa-github fa-2xl" style="color: #76b5c5;"></i></a>
-                        <a href="mailto:daniel.echeverri.p@hotmail.com"><i class="fa-regular fa-envelope fa-2xl" style="color: #76b5c5;"></i></a>
-                    </div>
-                        <!-- <a href="" download class="btn btn2">Download CV</a> -->
-                </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2024 - current</span>
+                  <h3>Sales & Business Development Manager</h3>
+                  <h4 style="color: blue">iSystems GmbH</h4>
+                  <p>
+                    German cloud and hosting provider focused on small and
+                    medium enterprises (SME) using SAP Business One
+                  </p>
+                </li>
+                <li>
+                  <span>2022 - 2023</span>
+                  <h3>Software Developer</h3>
+                  <h3>Product Manager</h3>
+                  <h4 style="color: blue">BW2 Tecnologies AG</h4>
+                  <p>Swiss software company focused on B2B Saas.</p>
+                </li>
+                <li>
+                  <span>2014 - 2016</span>
+                  <h3>Key Account Manager B2B</h3>
+                  <h3>Sales Analyst</h3>
+                  <h3>Marketing Analyst</h3>
+                  <h4 style="color: blue">
+                    The Goodyear Tire & Rubber Company
+                  </h4>
+                  <p>US American Tire Manufacturer</p>
+                </li>
+                <li>
+                  <span>2011 - 2013</span>
+                  <h3>Key Account Supervisor</h3>
+                  <h3>Marketing Intern</h3>
+                  <h3>SAP Intern</h3>
+                  <h4 style="color: blue">The Clorox Company</h4>
+                  <p>US American Cleaning products Manufacturer</p>
+                </li>
+              </ul>
             </div>
-        </div>
-        
-        <script type="text/javascript" src="index.js"></script>
-    </body>
-    <footer>
-        <div class="container footer">
-            <div class="row footer">
-                <div class="logofooter"><img src="/images/Daniel_logo_negative.svg" alt="Logo_negative"></div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022</span><br />Specialty Degree in Business
+                  Intelligent at UCN
+                </li>
+                <li><span>2022</span><br />Data Science Training at ESAP</li>
+                <li>
+                  <span>2021</span><br />Mintic 2022 Web Development Training at
+                  UPB
+                </li>
+                <li>
+                  <span>2020</span><br />Data Engineer with Python Training at
+                  Platzi
+                </li>
+                <li>
+                  <span>2017</span><br />Bachelor Degree in Business
+                  Administration at FUNLAM
+                </li>
+              </ul>
             </div>
-            <p>Thanks for visit my website.</p>
-            <p>Copyright 2022 ©</p>
+            <div class="tab-contents" id="languages">
+              <ul>
+                <li><span>B2</span> English</li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/289863988_1490965334692560_3211829710324011111_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=R6ZkHdXQQS8AX-hcBQ6&_nc_ht=scontent.feoh2-1.fna&oh=00_AfCCCmq6-xzLQC2cX_6nqSUxURlm12B9CSoULRFlaDLMzg&oe=651AD366"
+              alt="La Tartaleteria"
+            />
+            <div class="layer">
+              <h3>App Tartaleteria</h3>
+              <p>
+                Food business website, the website developed with Django
+                framework, React js and mysql to local storage.
+              </p>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="https://media.licdn.com/dms/image/C4E03AQE3jsUfGumx2Q/profile-displayphoto-shrink_800_800/0/1564680299257?e=2147483647&v=beta&t=0y4w77VMIvyGLK_osBNpvQwGSOrCECDNzlhQPjvXJ1I"
+              alt="JM Producciones"
+            />
+            <div class="layer">
+              <h3>App JM Producciones</h3>
+              <p>
+                Event logistic business desktop app to management the inventory.
+                Desktop app developed with java and sqlite to storage.
+              </p>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="https://seranking.com/es/blog/wp-content/uploads/sites/13/2023/02/que-es-la-ia-en-seo-y-contenidos.png"
+              alt="Mail Assistance"
+            />
+            <div class="layer">
+              <h3>Mail Assistance</h3>
+              <p>
+                Python automatization on Outlook, to management the inbox and
+                get time control on your activities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="technologies">
+      <div class="container">
+        <h1 class="sub-title">Technologies</h1>
+        <div class="tech-list">
+          <div class="tech">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1280px-Python_logo_and_wordmark.svg.png"
+              alt="Python"
+            />
+          </div>
+
+          <div class="tech">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png"
+              alt="Spark"
+            />
+          </div>
+
+          <div class="tech">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hadoop_logo.svg/1024px-Hadoop_logo.svg.png"
+              alt="Hadoop"
+            />
+          </div>
+
+          <div class="tech">
+            <img
+              src="https://cdn.neowin.com/news/images/uploaded/2019/10/1571114082_power_bi_new_3_story.jpg"
+              alt="Power BI"
+            />
+          </div>
+
+          <div class="tech">
+            <img
+              src="https://www.qlik.com/es-es/-/media/images/qlik/global/qlik-logo-2x.png?rev=-1"
+              alt="QlikSense"
+            />
+          </div>
+
+          <div class="tech">
+            <img
+              src="https://companieslogo.com/img/orig/PLTR_BIG-45654fcc.png?t=1634119414"
+              alt="Palantir Foundry"
+            />
+          </div>
+
+          <div class="tech">
+            <img
+              src="https://download.logo.wine/logo/Microsoft_Azure/Microsoft_Azure-Logo.wine.png"
+              alt="Azure"
+            />
+          </div>
+
+          <div class="tech">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png"
+              alt="AWS"
+            />
+          </div>
+
+          <div class="tech">
+            <img
+              src="https://www.ucloudstore.com/wp-content/uploads/2021/09/gcp-02.png"
+              alt="GCP"
+            />
+          </div>
+
+          <div class="tech">
+            <img
+              src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"
+              alt="Docker"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="row contact">
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/daechepe"
+              ><i
+                class="fa-brands fa-linkedin fa-2xl"
+                style="color: #76b5c5"
+              ></i
+            ></a>
+            <a href="https://github.com/daechepe"
+              ><i class="fa-brands fa-github fa-2xl" style="color: #76b5c5"></i
+            ></a>
+            <a href="mailto:daniel.echeverri.p@hotmail.com"
+              ><i
+                class="fa-regular fa-envelope fa-2xl"
+                style="color: #76b5c5"
+              ></i
+            ></a>
+          </div>
+          <!-- <a href="" download class="btn btn2">Download CV</a> -->
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+  <footer>
+    <div class="container footer">
+      <div class="row footer">
+        <div class="logofooter">
+          <img src="/images/Daniel_logo_negative.svg" alt="Logo_negative" />
+        </div>
+      </div>
+      <p>Thanks for visit my website.</p>
+      <p>Copyright 2022 ©</p>
+    </div>
+  </footer>
 </html>
-
