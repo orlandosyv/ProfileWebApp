@@ -163,6 +163,10 @@ nav ul li a:hover::after {
     display: block;
 }
 
+.School h4 {
+    color: green;
+}
+
 /* ################ PORTFOLIO ################*/
 #portfolio {
     padding: 85px 0;
